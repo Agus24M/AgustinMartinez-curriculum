@@ -1,0 +1,46 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Ubuntu Regular";
+    src: url(fonts/Ubuntu-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu Italic";
+    src: url(fonts/Ubuntu-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Ubuntu Bold";
+    src: url(fonts/Ubuntu-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu BoldItalic";
+    src: url(fonts/Ubuntu-BoldItalic.ttf) format(truetype);
+    font-weight: bold;
+    font-style: italic;
+}
+
+* {
+    font-family: "Ubuntu Regular", sans-serif;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+/* aca empiezan las aplicaciones */
+
+h1 {
+    font-family: 'Ubuntu Bold', sans-serif;
+}
+
+h2 {
+    font-family: 'Ubuntu BoldItalic' sans-serif;
+}

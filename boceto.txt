@@ -1,0 +1,27 @@
+boceto curriculum 
+
+Encabezado (header)
+- imagen foto (img)
+- menú de navegación: (nav)
+-- inicio (a)
+-- contacto (a)
+-- experiencia (a)
+-- atributos (a)
+-- titulos (a)
+
+Contenido (inicio) (main)
+- Agustin Martinez (h1)
+- Curriculum Vitae (h2)
+- Licenciado en Diseño y Comunicación Visual (h3)
+- Soy una persona organizada y responsable, con buenas 
+relaciones interpersonales y con la mejor disposición para 
+la realización de mis labores. (p)
+- Más información personal (h2)
+- foto2 (img)
+
+Pie de Pagin (footer)
+- Agustin Martinez (p)
+- Contactos: (ul)
+-- Instagram (li)
+-- Telefono (li)
+-- G-mial (li)
