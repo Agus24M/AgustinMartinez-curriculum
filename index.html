@@ -4,47 +4,72 @@
         <meta charset="utf-8"/>
         <title>Curriculum Vitae Martinez Agustin</title>
         <link rel="stylesheet" href="estilo.css">
+        <link rel="icon" type="image/x-icon" href="img/img-favicon.png">
     </head>
     <body>
         <header>
-            <nav>
-                <a href="#">Contacto</a>
-                <a href="#">Experiencia</a>
-                <a href="#">Títulos</a>
-                <a href="#">Hoobies</a>
+            <nav class="menu">
+                <a href="#columna2">Rugby</a>
+                <a href="#columna3">Experiencia</a>
+                <a href="#columna3">Títulos</a>
+                <a href="#columna3">Hoobies</a>
+                <a href="#redes">Contacto</a>
             </nav>
-            <section id="hero">
-                <h1>Agustin Martinez</h1>
-                <h2>Diseño y Comunicación Visual</h2>
-                <img src="img/fotoprueba.jpeg" alt="Fotografia de Agustin practicando al rugby" width="200" height="200"/>
-            </section>
         </header>
         <main>
-<!--Pequeña Descripción-->
-            <article>
-                <h3>Información Personal</h3>
-                <p>Soy Agustin, una persona organizada y responsable, la cual le encanta el trabajo manual, con buenas relaciones interpersonales y con la mejor disposicion para realizar mis labores, escuchar cualquier correccion, y poder dar lo mejor de mi.</p>
-            </article>
-<!--Información Extra-->
-            <section>
-                <img src="img/foto2.jpeg" alt="Fotografia de Agustin con amigos practicando al rugby" width="400" height="400"/>
+<!--¿quien soy?-->
+            <section id="columna1">
+                <article class="columna-texto">
+                    <h1>Agustin Martinez</h1>
+                    <h2>Diseñador y Comunicador Visual</h2>
+                </article>
+                <article class= "columna-foto">
+                <article class="columna-img">
+                    <img src="img/foto-perfil-cv.jpeg" alt="Fotografia de Agustin practicando al rugby" width="200" height="200"/>
+                </article>
+            </section>
+<!--informacion-personal-->
+            <section id="columna2">
+                <article class="columna-texto2">
+                    <h1 class="informacion">Infomación Personal</h3>
+                    <p>Soy Agustin, una persona organizada y responsable, la cual le encanta el trabajo manual, con buenas relaciones interpersonales y con la mejor disposición para realizar mis labores, escuchar cualquier corrección, y poder dar lo mejor de mí.</p>
+                    <p>Amo el deporte y practicar cualquier tipo de actividad física y al aire libre. Pero mi gran pasión está por la pelota ovalada. El rugby es un deporte hermoso, donde lo practico desde los seis años. Un deporte que une y crea grandes vínculos.</p>
+                    <p>Retomando información sobre mi profesión, les dejo a continuación más características y habilidades de mí.</p>
+                </article>
+                <article class="columna-img2">
+                    <img src="img/foto-rugby.jpg" alt="Fotografia de Agustin con amigos practicando al rugby" width="400" height="400"/>
+                </article>
+            </section>
+<!--tres-columnas-info-->
+            <section id="columna3">
+                <div class="seccion2">
+                    <h2 class="titulo-seccion">Mi formación</h2>
+                </div>
+
+                <div class="agrupacion-trabajos">
+                    <article class="trabajo">
+                        <h3>Títulos</h3>
+                        <p>Estoy resivido de licensiado en Comunicación y Diseño Visual en la Universidad Nacional de Lanus (Unla).</p>
+                        <p>Graduado del Bachillerato secundario en Comunicación de el establecimiento Institucional Del Prado.</p>
+                    </article>
+                    <article class="trabajo">
+                        <h3>Experiencia</h3>
+                        <p>Desarrollo de piezas gráficas para identidad visual y comunicación. Creación de contenido visual, composición, selección tipográfica y cromática, adaptación de piezas para distintos formatos. Manejo de herramientas como Adobe Illustrator, Photoshop y Canva.</p>
+                    </article>
+                    <article class="trabajo">
+                        <h3>Hoobies</h3>
+                        <p>Como dije anteriormente en mi tiempo libre disfruto del deporte, especialmente del rugby y el entrenamiento físico, actividades que me ayudan a desarrollar disciplina, constancia y trabajo en equipo.</p>
+                        <p>También encuentro en el dibujo y el arte un espacio para explorar mi creatividad, experimentar con distintas formas de expresión y dejarme llevar por el proceso creativo.</p>
+                    </article>
+                </div>
             </section>
         </main>
         <footer>
-            <ul>
-                <li><a href="http://www.instagram.com/aaagus.24/">Instagram</a></li>
-                <li>Telefono</li>
+            <div class="redes" id="redes">
+                <li><a class="instagram" href="http://www.instagram.com/aaagus.24/">Instagram</a></li>
                 <li>agusmartinez1006@gmail.com</li>
-            </ul>
-            <section id="hero2" class="contenedor">
-                <h3>Títulos</h3>
-                <p>Estoy resivido de licensiado en Comunicación y Diseño Visual en la Universidad Nacional de Lanus (Unla). 
-                Ademas estoy graduado del Bachillerato secundario en Comunicación de el establecimiento Institucional Del Prado.</p>
-                <h3>Experiencia</h3>
-                <p>Desarrollo de piezas gráficas para identidad visual y comunicación. Creación de contenido visual, composición, selección tipográfica y cromática, adaptación de piezas para distintos formatos. Manejo de herramientas como Adobe Illustrator, Photoshop y Canva.</p>
-                <h3>Hoobies</h3>
-                <p>En mi tiempo libre disfruto del deporte, especialmente del rugby y el entrenamiento físico, actividades que me ayudan a desarrollar disciplina, constancia y trabajo en equipo. También encuentro en el dibujo y el arte un espacio para explorar mi creatividad, experimentar con distintas formas de expresión y dejarme llevar por el proceso creativo.</p>
-            </section>
+                <li>Telefono</li>
+            </div>
         </footer>
     </body>
 </html>

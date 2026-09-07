@@ -31,83 +31,156 @@
 
 * {
     font-family: "Ubuntu Regular", sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 body {
-    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
 }
-
-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    gap: 50px;
-    justify-content: center;
-}
-
-nav {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    padding: 20px;
-}
-
-/* aca empiezan las aplicaciones */
 
 h1 {
     font-family: 'Ubuntu BoldItalic', sans-serif;
-    text-align: left;
     color: white;
+    font-size: 60px;
 }
 
 h2 {
-    font-family: 'Ubuntu Italic', sans-serif;
-    text-align: left;
-    color: white;
+    font-family: 'Ubuntu talic', sans-serif;
+     color: white;
+     font-size: 30px;
 }
 
 h3 {
-    font-family: 'Ubuntu Bold', sans-serif;
+    font-family: 'Ubuntu BoldItalic', sans-serif;
+    color:rgb(21 31 31); 
 }
 
-article {
-    font-family: "Ubuntu Regular", sans-serif;
-    color: black;
-    padding-inline: 280px;
+p {
+    font-family: 'Ubuntu Regular', sans-serif;
+    color: #ffffff;
 }
 
 a {
     font-family: "Ubuntu Regular", sans-serif;
     color: black;
     text-decoration: none;
+    gap: 30px;
 }
 
 ul {
-    font-family: "Ubuntu Regular", sans-serif;
-    color: black;
+    font-family: 'Ubuntu Regular', sans-serif;
+    padding: 20px 200px 20px 200px;
     text-decoration: none;
+}
+
+/* --- HEADER --- */
+.menu {
     display: flex;
-    list-style-type: none;
     justify-content: center;
+    font-family: "Ubuntu Regular", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color:rgb(21 31 31);
     gap: 50px;
-    margin: 10px 10px 60px 10px;
 }
 
-header-img {
-    width: 150px;
-    height: auto;
+/* --- MAIN --- */
+#columna1 {
+    background-color: #171f21;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
 }
 
-#hero {background-color:rgb(21 31 31);}
+/* --- INFORMACION --- */
+#columna2 {
+    background-color: #171f21;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px 80px;
+}
 
-#hero2 {background-color:rgb(21 31 31);}
+#informacion {
+    font-family: "Ubuntu Regular", sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+}
 
-.contenedor {
+/* --- FORMACION --- */
+#columna3 {
+    font-family: "Ubuntu BoldItalic", sans-serif;
+    color: #171f21;
+    padding: 100px 80px 100px 80px;
+}
+
+.seccion2 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+}
+
+.seccion2 h2 {
+    margin-right: 40px;
+    color: #171f21;
+    margin-left: 17px;
+    font-family: "Ubuntu Italic", sans-serif;
+    font-size: 60px;
+}
+
+.seccion2 h3 {
+    margin-right: 40px;
+    color: #171f21;
+    margin-left: 17px;
+    font-size: 30px;
+}
+
+.agrupacion-trabajos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.trabajo {
+    width: 30%;
+}
+
+.trabajo p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #171f21;
+}
+
+/* --- FOOTER --- */
+footer {
+    background-color: #171f21;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+}
+
+.redes {
+    font-family: "Ubuntu Regular", sans-serif;
     color: white;
-    padding-inline: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.instagram {
+    font-family: "Ubuntu Regular", sans-serif;
+    color: white;
+    text-decoration: none;
 }
