@@ -2,74 +2,149 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Curriculum Vitae Martinez Agustin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="theme-color" content="#E34625">
+        <title>Martinez Agustin</title>
         <link rel="stylesheet" href="estilo.css">
         <link rel="icon" type="image/x-icon" href="img/img-favicon.png">
     </head>
     <body>
+        <input class="activar" type="checkbox" id="activar">
         <header>
             <nav class="menu">
-                <a href="#columna2">Rugby</a>
-                <a href="#columna3">Experiencia</a>
-                <a href="#columna3">Títulos</a>
-                <a href="#columna3">Hoobies</a>
-                <a href="#redes">Contacto</a>
+                <a href="index.html"> 
+                    <img src="img/iconos-11.svg" width="70" height="70" alt="logo"></img>
+                </a>
+                <ul class="lista-menu">
+                    <li class="item-contacto">
+                        <a class="boton-nav" href="paginas/contacto.html" aria-label="contacto">
+                            <img class="icono-normal" src="img/iconos-12.svg" width="50" height="50" alt="">
+                            <img class="icono-hover" src="img/iconos-15.svg" width="50" height="50" alt="">
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                    <li class="item-hobbies">
+                        <a class="boton-nav" href="paginas/hobbies.html" aria-label="hobbies">
+                            <img class="icono-normal" src="img/iconos-13.svg" width="50" height="50" alt="">
+                            <img class="icono-hover" src="img/iconos-16.svg" width="50" height="50" alt="">
+                            <span>Hobbies</span>
+                        </a>
+                    </li>
+                    <li class="item-trabajos">
+                        <a class="boton-nav" href="paginas/trabajos.html" aria-label="trabajos">
+                            <img class="icono-normal" src="img/iconos-14.svg" width="50" height="50" alt="">
+                            <img class="icono-hover" src="img/iconos-17.svg" width="50" height="50" alt="">
+                            <span>Trabajos</span>
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <main>
-<!--¿quien soy?-->
-            <section id="columna1">
-                <article class="columna-texto">
-                    <h1>Agustin Martinez</h1>
-                    <h2>Diseñador y Comunicador Visual</h2>
-                </article>
-                <article class= "columna-foto">
-                <article class="columna-img">
-                    <img src="img/foto-perfil-cv.jpeg" alt="Fotografia de Agustin practicando al rugby" width="200" height="200"/>
-                </article>
+            <!-- PORTADA -->
+            <section class="portada">
+                <h1 class="nombres">
+                    <span class="linea-a">
+                        <img class="letra-a" src="img/iniciales-19.svg" width="150" height="150" alt="A">gustin
+                    </span>
+                    <span class="linea-m">
+                        <img class="letra-m" src="img/iniciales-18.svg" width="150" height="150" alt="M">artinez
+                    </span>
+                    <label class="lapiz" for="activar">
+                        <img src="img/lapiz.svg" width="150" height="185" alt="Lápiz: hacé clic para entrar">
+                    </label>
+                    <img class="logo-portada" src="img/iconos-11.svg" width="201" height="201" alt="">
+                </h1>
+                <p class="saludo">Holaaa! Soy un diseñador gráfico jr. Vivo en Buenos Aires, Argentina. Además de diseñar, me gusta mucho todo lo analógico, el dibujo más que nada, es algo que me fascina. Así que te invito a conocerme un poco más! Apreta el lapiz!!</p>
+                <a class="titulo-portfolio" href="#curriculum">
+                    Portfolio
+                    <span class="flecha">↓</span>
+                </a>
             </section>
-<!--informacion-personal-->
-            <section id="columna2">
-                <article class="columna-texto2">
-                    <h1 class="informacion">Infomación Personal</h3>
-                    <p>Soy Agustin, una persona organizada y responsable, la cual le encanta el trabajo manual, con buenas relaciones interpersonales y con la mejor disposición para realizar mis labores, escuchar cualquier corrección, y poder dar lo mejor de mí.</p>
-                    <p>Amo el deporte y practicar cualquier tipo de actividad física y al aire libre. Pero mi gran pasión está por la pelota ovalada. El rugby es un deporte hermoso, donde lo practico desde los seis años. Un deporte que une y crea grandes vínculos.</p>
-                    <p>Retomando información sobre mi profesión, les dejo a continuación más características y habilidades de mí.</p>
+            <section class="curriculum" id="curriculum">
+                <section class="cv-arriba">
+                    <article class="sobre-mi">
+                        <h2>Sobre mí</h2>
+                        <p>Hola de nuevo! Como dije, me llamo Agustin, tengo 20 años y vivo en Longchamps.
+                        Soy estudiante de diseño y comunicación visual en la UNLa. </p>
+                    </article>
+                    <article class="estudios">
+                        <h2>Estudios</h2>
+                        <ul class="instituciones">
+                            <li class="colegio-secundario">
+                                <p>Bachiller en Comunicación en el Instituto Del Prado. - Desde 2017 hasta 2023.</p>
+                            </li>
+                            <li class="universidad">
+                                <p> Licenciatura en Diseño y Comunicación Visual en la Universidad Nacional de Lanús (UNLa). - Desde 2024 hasta la actualidad.</p>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+                <article class="programas">
+                    <h2>Programas que manejo</h2>
+                    <ul class="habilidad">
+                        <li class="illustrator">
+                            <img src="img/illustrator.png" width="203" height="71" alt="habilidad-illustrator"></img>
+                        </li>
+                        <li class="photoshop">
+                            <img src="img/photoshop.png" width="203" height="71" alt="habilidad-photoshop"></img>
+                        </li>
+                        <li class="indesing">
+                            <img src="img/indesing.png" width="203" height="71" alt="habilidad-indesign"></img>
+                        </li>
+                        <li class="figma">
+                            <img src="img/figma.png" width="188" height="71" alt="habilidad-figma"></img>
+                        </li>
+                        <li class="visual">
+                            <img src="img/visual.png" width="207" height="71" alt="habilidad-visual"></img>
+                        </li>
+                        <li class="html5">
+                            <img src="img/html5.png" width="201" height="71" alt="habilidad-html5"></img>
+                        </li>
+                    </ul>
                 </article>
-                <article class="columna-img2">
-                    <img src="img/foto-rugby.jpg" alt="Fotografia de Agustin con amigos practicando al rugby" width="400" height="400"/>
-                </article>
-            </section>
-<!--tres-columnas-info-->
-            <section id="columna3">
-                <div class="seccion2">
-                    <h2 class="titulo-seccion">Mi formación</h2>
-                </div>
-
-                <div class="agrupacion-trabajos">
-                    <article class="trabajo">
-                        <h3>Títulos</h3>
-                        <p>Estoy resivido de licensiado en Comunicación y Diseño Visual en la Universidad Nacional de Lanus (Unla).</p>
-                        <p>Graduado del Bachillerato secundario en Comunicación de el establecimiento Institucional Del Prado.</p>
+                <section class="cv-abajo">
+                    <article class="aptitudes">
+                        <h2>Aptitudes</h2>
+                        <p>Soy una persona organizada, que se lleva bien en equipo, más si tomo un rol de líder. Me puedo adaptar a los imprevistos presentados. </p>
                     </article>
-                    <article class="trabajo">
-                        <h3>Experiencia</h3>
-                        <p>Desarrollo de piezas gráficas para identidad visual y comunicación. Creación de contenido visual, composición, selección tipográfica y cromática, adaptación de piezas para distintos formatos. Manejo de herramientas como Adobe Illustrator, Photoshop y Canva.</p>
+                    <article class="idiomas">
+                        <h2>Idiomas</h2>
+                        <ul class="lengua">
+                            <li class="español">
+                                <p>Español - Nivel: Nativo</p>
+                            </li>
+                            <li class="ingles">
+                                <p>Inglés - Nivel: Intermedio</p>
+                            </li>
+                        </ul>
                     </article>
-                    <article class="trabajo">
-                        <h3>Hoobies</h3>
-                        <p>Como dije anteriormente en mi tiempo libre disfruto del deporte, especialmente del rugby y el entrenamiento físico, actividades que me ayudan a desarrollar disciplina, constancia y trabajo en equipo.</p>
-                        <p>También encuentro en el dibujo y el arte un espacio para explorar mi creatividad, experimentar con distintas formas de expresión y dejarme llevar por el proceso creativo.</p>
-                    </article>
-                </div>
+                </section>
             </section>
         </main>
-        <footer>
-            <div class="redes" id="redes">
-                <li><a class="instagram" href="http://www.instagram.com/aaagus.24/">Instagram</a></li>
-                <li>agusmartinez1006@gmail.com</li>
-                <li>Telefono</li>
-            </div>
+        <footer class="copyright">
+            <ul class="texto">
+                <li class="identidad">
+                    <p>Diseñado por Martinez Agustin | Copyright © 2026
+                        Portfolio académico</p>
+                </li>
+                <li class="materia">
+                    <p>UNLa - 2do cuatrimestre 2026
+                        Computación III - Cátedra Wischñevsky</p>
+                </li>
+            </ul>
+            <ul class="redes">
+                <li class="instagram">
+                    <a href="https://www.instagram.com/_tinezzz_/?hl=es" target="_blank"> 
+                        <img src="img/redes-20.svg" width="70" height="70" alt="logo-instagram"></img>
+                    </a>
+                </li>
+                <li class="linkeding">
+                    <a href="">
+                        <img src="img/redes-21.svg" width="70" height="70" alt="logo-linkedin"></img>
+                    </a>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
